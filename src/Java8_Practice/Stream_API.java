@@ -95,6 +95,14 @@ public class Stream_API {
         consumer.accept(list2);
 
         System.out.println();
+        
+        // if to use map here, it completely changes the formate from product to integer
+        getProducts()
+                .stream()
+                .map(p -> p.getPrice())
+                .filter(p -> p >10)
+                .forEach(product -> System.out.println(product));
+                
 
         //Sorting the stream
 

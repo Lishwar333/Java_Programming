@@ -1,13 +1,9 @@
-package JavaFundamentalsPractice;
-
-public class Fundamentals {
+public class Hello {
 
     public static void main(String[] args) {
 
 
-       char character = 'a';
-
-       System.out.print(character-96);
+       System.out.print("Hello jenkins");
         
     }
 
