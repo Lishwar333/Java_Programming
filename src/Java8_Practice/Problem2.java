@@ -10,7 +10,7 @@ public class Problem2 {
 	
 	public static void main(String[] args) {
 		
-		List<Integer> ints = Arrays.asList(10,20,15,13,1,5,7,12);
+		List<Integer> ints = Arrays.asList(10,20,15,13,1,5,7,12, 14);
 		
 		//Not type conversion using map()
 		ints.stream()
