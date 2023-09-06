@@ -13,10 +13,8 @@ public class Problem3 {
 		List<Integer> myList = Arrays.asList(10,15,8,49,25,98,98,32,15);
         Set<Integer> set = new HashSet();
         myList.stream()
-              .filter(n -> !set.add(n))
+              .filter(n -> !set.add(n))      // Usually gives true after adding. Here true if not added
               .forEach(System.out::println);
-		
-		
 		
 	
 }
