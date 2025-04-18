@@ -23,7 +23,7 @@ public class javapractivenow {
 		}
 		
 		System.out.println("The sum is " + sum);
-		float average = sum/n;
+		float average = sum/n; 
 		System.out.println("The average is "+ average);
 		
 		
