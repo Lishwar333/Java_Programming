@@ -7,7 +7,7 @@ public class javapractivenow {
 	public static void main(String []args) {
 		
 		
-		System.out.println("Enter the size of the array");
+		System.out.println("Enter the siize of the array");
 		Scanner scan = new Scanner(System.in);
 		
 		int n = scan.nextInt();
