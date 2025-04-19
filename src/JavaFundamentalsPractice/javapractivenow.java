@@ -22,9 +22,9 @@ public class javapractivenow {
 			sum = sum + a[i];
 		}
 		
-		System.out.println("The sum is " + sum);
+		System.out.println("The array sum is " + sum);
 		float average = sum/n; 
-		System.out.println("The average is "+ average);
+		System.out.println("The array average is "+ average);
 		
 		
 		
