@@ -1,9 +1,9 @@
 package JavaFundamentalsPractice;
 
-public class Book { 
+public class Book implements BookInterface { 
 
 	String name;
-	float price;
+	private float price;
 	Author []auth;
 	public Book(String name, float price, Author[] auth) {
 		super();
@@ -28,6 +28,12 @@ public class Book {
 	}
 	public void setAuth(Author[] auth) {
 		this.auth = auth;
+	}
+	@Override
+	public void BookPublication() {
+		// TODO Auto-generated method stub
+		System.out.println("Sport Publications");
+		
 	}
 	
 }

@@ -1,6 +1,7 @@
 package JavaFundamentalsPractice;
 
 import java.util.Scanner;
+import JavaFundamentalsPractice.*;
 
 
 public class javapractivenow {
@@ -18,8 +19,10 @@ public class javapractivenow {
 		
 		Book book = new Book("Cricket", 333, auth);
 		
-		System.out.println("The name of the book is " + book.name + " written by "+ book.auth[0].name + " and " + book.auth[1].name + " and is getting sold at " + book.price);
+		System.out.println("The name of the book is " + book.getName() + " written by "+ book.auth[0].getName()+ " and " + book.auth[1].getName() + " and is getting sold at " + book.getPrice());
 		
+		System.out.println(System.getProperty("user.home"));
 	}
 	
 }
+	
