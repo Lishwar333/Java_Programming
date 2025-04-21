@@ -21,7 +21,11 @@ public class javapractivenow {
 		
 		System.out.println("The name of the book is " + book.getName() + " written by "+ book.auth[0].getName()+ " and " + book.auth[1].getName() + " and is getting sold at " + book.getPrice());
 		
+		
+		
 		System.out.println(System.getProperty("user.home"));
+		
+		pattern3 pat3 = new pattern3();
 	}
 	
 }
