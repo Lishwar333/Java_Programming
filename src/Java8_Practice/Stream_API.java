@@ -78,6 +78,12 @@ public class Stream_API {
 
             System.out.println(product);
         }
+        
+        System.out.println("Start");
+        
+        list1.stream().filter(p -> p.getPrice()>10).forEach(System.out::println);
+        
+        System.out.println("end");
 
         System.out.println();
 
