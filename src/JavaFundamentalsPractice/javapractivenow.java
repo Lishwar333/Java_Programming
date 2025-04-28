@@ -25,7 +25,7 @@ public class javapractivenow {
 		
 		System.out.println(System.getProperty("user.home"));
 		
-		pattern4 pat = new pattern4();
+		pattern5clean pat = new pattern5clean();
 	}
 	
 }
